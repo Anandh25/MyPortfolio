@@ -35,9 +35,10 @@
 }
 
 .topContent__container > h1 {
-    font-size: 50px;
+    font-size: 30px;
     /* font-family: "Montserrat",sans-serif; */
     font-family: "Montserrat",'Times New Roman', Times, serif;
+    justify-content: center;
 }
 
 .topContent__downloadButton {
