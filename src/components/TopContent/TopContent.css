@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@300;600&display=swap');
+
+.topContent {
+    color: white;
+    position: relative;
+}
+
+.topContent__container {
+    position: absolute;
+    top: 200px;
+    right: 600px;
+    left: 100px;
+}
+    
+.topContent__container > p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+    font-family: bold;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 1.6;
+    font-size: 150%;
+}
+
+.topContent__container > a > button {
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: left;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topContent__container > h1 {
+    font-size: 50px;
+    /* font-family: "Montserrat",sans-serif; */
+    font-family: "Montserrat",'Times New Roman', Times, serif;
+}
+
+.topContent__downloadButton {
+    color: black;
+    background-color: yellow;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: bold;
+    font-size: large;
+}
+
+.topContent__downloadButton:hover {
+    color: black;
+    background-color: yellow;
+    font-weight: 600;
+}
