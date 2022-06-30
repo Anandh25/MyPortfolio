@@ -15,7 +15,7 @@ const SkillContainer = () => {
             <div className='skillContainer__skillSet'>
                 <h5>React</h5>
                 <div className='skillContainer__slider skillContainer__slider1'>
-                <LinearProgress variant='determinate' value={90} />
+                <LinearProgress variant='determinate' value={40} />
                 </div>
             </div>
             <div className='skillContainer__skillSet'>
