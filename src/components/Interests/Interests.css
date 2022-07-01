@@ -1,0 +1,36 @@
+.interest > img{
+    width: 350px;
+    height: 179px;
+}
+
+.interest{
+    margin: 15px;
+    width: 350px;
+    height: 179px;
+    transition: transform 100ms ease-in;   
+    
+}
+
+.interest:hover {
+    color: black;
+    background-color: yellow;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.interest__content {
+    padding: 10px;
+    
+}
+
+.interest__content > h4 {
+    padding: 5px; 
+}
+
+.interest__content > p {
+    padding: 5px;   
+}
