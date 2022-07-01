@@ -16,7 +16,7 @@ const header = () => {
         <h4>Skills</h4>
       </Link>
       <Link to="projects" smooth={true} duration={500}>
-        <h4>Projects</h4>
+        <h4>Practicals</h4>
       </Link>
       <Link to="exp" smooth={true} duration={500}>
         <h4>Studies</h4>

@@ -6,25 +6,25 @@ import './InterestContainer.css'
 const InterestContainer = () => {
     const interests = [
         {
-            img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZI-AZFpRT2BCzvUNKXFvmtHfoMWdc_HXx-T9uiJFHVrqWYi7B8hjQ9vIwo_jSYCy06k&usqp=CAU",
-            title:"I like to play football",
-            desc:"In recent times i got admire to football...",
+            img:"https://lh3.googleusercontent.com/QGnGwBvxC6O0qOXa87XO0oe4h7ldyU8A63nBQY42xQ4YSXVdA75Yi8inib_E4J_oguHeQw=s151",
+            title:"ENTERTAINMENT",
+            desc:"Actively took part in stage performances during my college days for mimicry. Participated in auditions for KPY, Senior & Junior Competitions",
         },
         {
             img:"https://meadowscastlerock.com/wp-content/uploads/2016/07/Learn-to-Play-Guitar-in-a-Day-at-The-Grange-The-Meadows-Castle-Rock-1.jpg",
-            title:"I love Music ",
-            desc:"In free time i often listening to music... and learning guitar",
+            title:"MUSIC",
+            desc:"I often listen to music in free time. Got interest in Guitar and started learning to play",
         },
         {
-            img:"https://lh3.googleusercontent.com/QGnGwBvxC6O0qOXa87XO0oe4h7ldyU8A63nBQY42xQ4YSXVdA75Yi8inib_E4J_oguHeQw=s151",
-            title:"I like doing mimicry onstage",
-            desc:"Have participated in culturals and stage performances in college for mimicry ",
+            img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZI-AZFpRT2BCzvUNKXFvmtHfoMWdc_HXx-T9uiJFHVrqWYi7B8hjQ9vIwo_jSYCy06k&usqp=CAU",
+            title:"SPORT",
+            desc:"In recent times, I got interests in football. So started playing it to get relaxed",
         },
     ]
   return (
    <Element className='interestContainer' id='int'>
     <h1>Interests</h1>
-    <p>My own interests ....</p>
+    {/* <p>My own interests ....</p> */}
     <div className='interestContainer__interests'>
 {
     interests.map((interest, index)=>{

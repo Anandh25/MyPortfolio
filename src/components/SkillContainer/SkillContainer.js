@@ -11,7 +11,7 @@ const SkillContainer = () => {
             <img src={skillimg} alt='' />
         </div>
         <div className='skillContainer__text'>
-            <h2>***MY SKILLSET ***</h2>
+            <h2>MY SKILLSET</h2>
             <div className='skillContainer__skillSet'>
                 <h5>React</h5>
                 <div className='skillContainer__slider skillContainer__slider1'>
