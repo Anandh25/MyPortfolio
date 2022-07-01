@@ -1,7 +1,6 @@
 .project > img{
     width: 350px;
     height: 179px;
-    
 }
 
 .project{
@@ -21,6 +20,7 @@
     align-items: center;
     cursor: pointer;
 }
+
 
 .project__content {
     padding: 10px;
