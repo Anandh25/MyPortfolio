@@ -13,7 +13,7 @@ const Contact = () => {
                 Email : <span>anandhmanoharan@gmail.com</span>
             </p>
             <p>
-                Mobile Number : <span>+91 9345493810</span> 
+                Mobile Number : <span>+91 9942820853</span> 
             </p>
             <div className='contact__icons'>
             <a href='https://www.linkedin.com/in/anandhmanoharan-2592a913a/' target={'_blank'}>

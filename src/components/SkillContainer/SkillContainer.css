@@ -12,17 +12,22 @@
     color: yellow;
     flex: 0.5;
     text-align: left;
-    max-width: 500px;
-    margin-bottom: 20px;  
+    max-width: 600px;
+    margin-bottom: 10px;  
 }
 
 .skillContainer__text > h2 {
-    font-size: 25px;
+    font-size: 23px;
+}
+
+.skillContainer__skillSet {
+    padding-right: 80px;
 }
 
 .skillContainer__skillSet > h5 {
     color: white;
-    font-style: oblique
+    font-style: oblique;
+    
 }
 
 .skillContainer__image {
@@ -33,14 +38,16 @@
 
 .skillContainer__image > img {
     width: 600px;
-    border-radius: 3px;
+    border-radius: 5px;
     object-fit: contain;
+    
 }
 
 .skillContainer__skillSet > h5 {
     font-family: "Montserrat",sans-serif;
-    padding-top: 25px;
-    padding-bottom: 30px;
+    padding-top: 11px;
+    padding-bottom: 31px;
+    padding-left: 4px;
     font-weight: 300;
 }
 

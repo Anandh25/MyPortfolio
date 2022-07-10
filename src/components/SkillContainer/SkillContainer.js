@@ -42,6 +42,12 @@ const SkillContainer = () => {
                 <LinearProgress variant='determinate' value={70} />
                 </div>
             </div>
+            <div className='skillContainer__skillSet'>
+                <h5>Javascript</h5>
+                <div className='skillContainer__slider skillContainer__slider5'>
+                <LinearProgress variant='determinate' value={30} />
+                </div>
+            </div>
         </div>
     </Element>
   )
